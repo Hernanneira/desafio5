@@ -1,10 +1,11 @@
 {
-  "name": "ejs",
+  "name": "desafio4",
   "version": "1.0.0",
-  "description": "ejs",
-  "main": "index.js",
+  "description": "ejs express",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [
     "ejs",
@@ -13,7 +14,7 @@
   "author": "Hernan Neira",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.6",
-    "express": "^4.17.3"
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
   }
 }

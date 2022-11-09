@@ -1,17 +1,16 @@
-<h1>Formulario</h1>
-<form action="/productos" method="post">
-    <div class="row g-3">
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Título" name="title">
+<h2>Ingrese productos</h2>
+    <form action="/api/productos" method="post" name="productos">
+        <div>
+            <label for="title"></label>
+            <input type="text" name="title" required>
         </div>
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Precio" name="price">
+        <div>
+            <label for="price"></label>
+            <input type="text" name="price" required>
         </div>
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Url de la imagen" name="url">
+        <div>
+            <label for="thumbnail"></label>
+            <input type="text" name="thumbnail" required>
         </div>
-        <div class="col">
-            <button type="submit" class="btn btn-outline-dark">Guardar</button>
-        </div>
-    </div>
-</form>
+        <button>Enviar</button>
+    </form>
